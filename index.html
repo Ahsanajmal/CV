@@ -4,16 +4,20 @@
 
 <title>My CV</title>
       
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-     <script><link ref="stylesheet"  href="jquery-ui.css" /></script>
-     <script><link ref="stylesheet"  href="jquery-ui.js" /></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+     <link ref="stylesheet"  href="jquery-ui.css">
+     <script  src"jquery-ui.js"></script>
          
      
         
 </head>
 <body>
-  <div>       
-<img src="Chrysanthemum.jpg" style="float:right; width:115px; height:100px;"><br><br><br><br><br><br>
+  <div id="draggable"><img src="Chrysanthemum.jpg" style="float:right; width:115px; height:100px;"><br><br><br><br><br><br></div>      
+      <scrip>
+         $('document').ready (function(){
+            $('#draggable').draggable();
+            });
+      </script>
     </div>
            
 <h1>Name: </h1>
