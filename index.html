@@ -7,12 +7,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
      <link ref="stylesheet"  href="jquery-ui.css">
      <script  src"jquery-ui.js"></script>
-         
-     
+     <style>
+         #draggable {
+               display:inline-block;
+               border: 1px solid #ccc;
+               background: #ccc;
+               width: 200px;
+               text-align: center;
+               pading:  15px;     
+                     
+           }
+     </style>
         
 </head>
 <body>
-  <div id="draggable"><img src="Chrysanthemum.jpg" style="float:right; width:115px; height:100px;"><br><br><br><br><br><br></div>      
+  <div id="draggable">Ahsan CV</div>      
       <script>
          $('document').ready(function(){
             $('#draggable').draggable();
